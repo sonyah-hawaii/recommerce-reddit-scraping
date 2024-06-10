@@ -2,4 +2,4 @@
 
 1. `make install`
 2. `source venv/bin/activate`
-3. `python scripto.py`
+3. `python sentiment_analysis.py`
