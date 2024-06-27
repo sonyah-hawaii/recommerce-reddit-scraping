@@ -1,5 +1,6 @@
 """
 Description: Retrieved subreddit submissions and comments from https://the-eye.eu/redarcs/ and converts to two pickle files
+Authored by Tamir Cohen 2024
 """
 
 import os
