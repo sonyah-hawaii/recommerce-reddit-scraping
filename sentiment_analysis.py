@@ -19,6 +19,7 @@ if __name__ == '__main__':
     print(f"*** {len(batches)} TEXT BATCHES TO BE RUN")
 
     print("*** CREATING PIPELINE ETC")
+    global sentiment_pipeline
     sentiment_pipeline = create_pipeline()
 
     def process_batch_w_pipe(batch):
@@ -34,6 +35,7 @@ if __name__ == '__main__':
             process_batch with batch, pipeline, batch_index and n_batches
 
         """
+        global sentiment_pipeline
         batch_index = batch[1]
         batch = batch[0]
         return process_batch(
