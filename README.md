@@ -2,16 +2,18 @@
    
 Bulk of historical data gathered from [The Eye](https://the-eye.eu/redarcs/) (2013-2022) for the following subreddits:
 - `r/Depop`
-- `r/DepopUK`
 - `r/Flipping`
 - `r/poshmark`
-- `r/therealreal`
-- `r/ThredUp`
 - `r/Grailed`
-- `r/grailedtalk`
 - `r/StockX`
 - `r/Etsy`
 - `r/Etsysellers`
+
+Scraped / to be scraped (due to younger age of sub)
+- `r/DepopUK`
+- `r/therealreal`
+- `r/grailedtalk`
+- `r/ThredUp`
 
 ## About the Data
 #### Posts
@@ -40,5 +42,8 @@ stockx | 140,024 | 126,593 | 75,929 | 0.095919 |
 
 #### Polls
 
-
 ## About the Users
+
+To Do:
+- Start on feature engineering
+- Add simple visualizations to README
